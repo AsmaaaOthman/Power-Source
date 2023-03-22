@@ -339,7 +339,7 @@ a{
 }
 @media screen and (max-width:768px) {
     .navbar .navbar-collapse {
-        top:80px
+        top:70px
     }
     .navbar .navbar-brand{
         width:38%;
@@ -360,7 +360,7 @@ a{
 ======================= Start Header Section =====================
 */
 .header-home{
-    margin-top:85px;
+    padding:4rem 0;
 }
 .carousel-control-next, .carousel-control-prev, .carousel-control-next:hover, .carousel-control-prev:hover{
     border:none;
@@ -500,9 +500,7 @@ a{
     }
 }
 @media screen and (max-width:991px) {
-    .header-home{
-        margin-top:10%;
-    }
+
     .header-home .carousel-item img {
         height:35vh;
 
@@ -521,9 +519,7 @@ a{
     }
 }
 @media screen and (max-width:767px){
-    .header-home{
-        margin-top:13%;
-    }
+
     .header-home .carousel-item .carousel-caption span{
         font-size:2rem
     }
