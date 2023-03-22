@@ -805,57 +805,7 @@ a{
 /*
 ======================= Start solution Section =====================
 */
-/*
-.solution{
-    padding:6rem 0;
-}
-.solution .solution-content{
-    padding: 5rem 2rem;
-    border:1px solid var(--green-lite);
-    border-radius:2rem;
-    top:8%;
-    position:relative;
-    cursor:pointer;
-    transition:all .5s ease-in;
-}
-.solution .solution-content:hover{
-    top:5%
-}
-.solution .solution-content .solution-img{
-    width:30rem;
-    height:28rem;
 
-}
-.solution .solution-content .solution-img img{
-    width:100%;
-
-}
-.solution .solution-content .solution-title{
-    color:var(--green);
-    font-size:2rem;
-    font-weight:700;
-    font-family:'kalam',cursive;
-
-
-}
-.solution .solution-content .solution-bottom{
-    font-family:'Poppins',sans-serif
-
-}
-.solution .solution-content .solution-bottom p{
-    font-size:1.2rem;
-    font-weight:600;
-    line-height:1.5;
-    color:var(--black)
-
-}
-.solution .solution-content .solution-bottom span{
-    color:var(--black);
-    font-size:1.2rem;
-    font-weight:600;
-
-}
-*/
 .solution{
     padding:6rem 0;
 }
@@ -968,13 +918,14 @@ a{
 ======================= Start Testimonials  Section =====================
 */
 .title {
-    padding: 4rem 0 2rem 0;
+    padding: 4rem 0 2rem 0
 }
 .testimonials{
     background-image:url('../image/4147510.jpg');
     background-position:center;
     background-size:cover;
     padding:12rem 0 ;
+    overflow:hidden;
 }
 .testimonials .testimonials-item{
     width:60%;
@@ -988,7 +939,8 @@ a{
     -webkit-border-radius:5rem;
     -moz-border-radius:5rem;
     -ms-border-radius:5rem;
-    -o-border-radius:5rem
+    -o-border-radius:5rem;
+    overflow:hidden;
 }
 
 .testimonials .testimonials-item i{
@@ -1203,6 +1155,7 @@ a{
 */
 .partner{
     padding:6rem 0;
+    overflow:hidden;
 }
 .partner-content{
     background-image:url('../image/abstract-blur-empty-green-gradient-studio-well-use-as-backgroundwebsite-templateframebusiness-report.jpg');
@@ -1281,6 +1234,7 @@ a{
 */
 .question{
     padding:8rem 0;
+    overflow:hidden;
 
 }
 .question .carousel-inner{
@@ -1463,6 +1417,9 @@ a{
 /*
 ======================= Start Map Section =====================
 */
+.map{
+    overflow:hidden;
+}
 .map iframe{
     width:100%;
     border-radius:.5rem;
@@ -1481,6 +1438,7 @@ a{
 */
 .footer{
     padding:7rem 0 0;
+    overflow:hidden;
 }
 .footer .footer-item img{
     width:40%;
