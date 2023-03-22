@@ -572,7 +572,8 @@ a{
 
 }
 .about-img {
-    height:60%
+    height:60%;
+    margin:2% 0;
 }
 .about-img img{
     width:100%;
@@ -808,6 +809,7 @@ a{
 
 .solution{
     padding:6rem 0;
+    overflow:hidden;
 }
 .solution .solution-content{
     padding:2rem 3rem;
@@ -925,6 +927,7 @@ a{
     background-position:center;
     background-size:cover;
     padding:12rem 0 ;
+    overflow:hidden;
     overflow:hidden;
 }
 .testimonials .testimonials-item{
@@ -1234,7 +1237,7 @@ a{
 */
 .question{
     padding:8rem 0;
-    overflow:hidden;
+    overflow:hidden
 
 }
 .question .carousel-inner{
