@@ -10,23 +10,25 @@ $(document).ready(function(){
         $(".product-list").toggleClass("navShow")
     })
 
-    // Logos Client
-    $('#partner .owl-carousel').owlCarousel({
+    $('#partner-home .owl-carousel').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
+        autoplay:true,
+        dots:false,
         responsive:{
             0:{
                 items:2
             },
             600:{
-                items:3
+                items:4
             },
             1000:{
                 items:5
             }
         }
     })
+
 
     // wow.js
     new WOW().init();

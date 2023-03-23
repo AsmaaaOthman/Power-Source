@@ -6,12 +6,11 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:0;
+    box-sizing:border-box;
     text-decoration:none;
     list-style:none;
     font-family:'Poppins',sans-serif;
 }
-
 :root{
     --blue:#007bff;
     --black:#151515;
@@ -768,6 +767,7 @@ a{
     font-family:600;
     display:block;
     cursor:pointer;
+    font-family:'kalam',cursive;
     transition:all 0.5s ease-in;
     -webkit-transition:all 0.5s ease-in;
     -moz-transition:all 0.5s ease-in;
@@ -779,6 +779,7 @@ a{
 }
 .services .card  .card-body  .card-text{
     font-size:1.6rem;
+    font-family:'Poppins',sans-serif;
     color:var(--white)
 
 }
@@ -922,8 +923,7 @@ a{
     background-image:url('../image/4147510.jpg');
     background-position:center;
     background-size:cover;
-    padding:12rem 0 ;
-    overflow:hidden;
+    padding:14rem 0 ;
     overflow:hidden;
 }
 .testimonials .testimonials-item{
@@ -1030,13 +1030,11 @@ a{
     -o-transition:all 0.5s ease-in;
 }
 .testimonials .carousel-control-prev:hover:after , .testimonials .carousel-control-next:hover:after{
-    width:50%;
+    width:50%
 
 }
 .testimonials .carousel-indicators{
-    bottom:-3rem;
-
-
+    bottom:-3rem
 }
 .testimonials .carousel-indicators li{
     border:0;
@@ -1085,68 +1083,61 @@ a{
 */
 
 
-/*
-======================= Start Partner Section =====================
-*/
 
 /*
-#partner{
+======================= Start Partner Home Section =====================
+*/
+.partner-home-content{
+    padding:4rem 0;
+}
+.partner-home-content h3{
+    color:var(--green);
+}
+#partner-home{
     background-image:url('../image/abstract-blur-empty-green-gradient-studio-well-use-as-backgroundwebsite-templateframebusiness-report.jpg');
     background-position:cover;
     background-size:cover;
     padding:8rem 0;
     position:relative;
 }
-#partner::before{
-    content:'';
-    position:absolute;
-    background-color:rgba(0, 0, 0, 0.39);
-    inset:0;
-}
-#partner .item {
+#partner-home .owl-carousel .item{
     display:inline-flex;
     justify-content:center;
     align-items:center;
+    border-radius:2rem;
+    width:95%;
+    transform:scale(1);
+    cursor:pointer;
 }
+#partner-home .owl-carousel .item::before{
+    position:absolute;
+    content:'';
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    border-radius:2rem;
+    transition:all .5s ease-in;
+}
+#partner-home .owl-carousel .item:hover::before{
+    background-color:var(--black-lite);
+
+}
+
+#partner-home .owl-carousel .item img{
+    border-radius:2rem;
+}
+
 .owl-carousel.owl-drag .owl-item{
     text-align:center;
+    
 }
-@media screen and (max-width:991px) {
-    #partner .owl-dots{
-        position: absolute;
-        left: 45%;
-        bottom: -30%;
-    }
-    #partner .owl-dots .owl-dot{
-        width:2rem;
-        height:2rem;
-        margin-left:.5rem;
-        background-color:var(--gray-lite);
-        border-radius:50%;
-        -webkit-border-radius:50%;
-        -moz-border-radius:50%;
-        -ms-border-radius:50%;
-        -o-border-radius:50%;
-        transition:all 0.5s ease-in;
-        -webkit-transition:all 0.5s ease-in;
-        -moz-transition:all 0.5s ease-in;
-        -ms-transition:all 0.5s ease-in;
-        -o-transition:all 0.5s ease-in;
-}
-    #partner .owl-dots .owl-dot.active{
-        background-color:var(--green);
-    }
-}
-@media screen and (max-width:500px) {
-    #partner .owl-dots{
-        left:38%
-    }
-} 
-*/
-/*
-======================= End Partner Section  =====================
-*/
 
+
+/*
+======================= End Partner home Section  =====================
+*/
 
 
 /*
